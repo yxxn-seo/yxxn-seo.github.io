@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "최윤서"
 description              : "시스템 프로그램을 위한 C언어"
-url                      : "http://yxxn-seo.github.io/"
+url                      : "https://yxxn-seo.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "yxxn-seo/yxxn-seo.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
