@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "최윤서"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/아바타 .jpg"
   bio              : "학생"
   location         : "대한민국, 서울"
   email            : "21-20532@hafs.hs.kr"
