@@ -52,9 +52,6 @@ printf("30일");
 else
 {
 if((year%4==0 && year%100!=0) || year%400==0)
-
-4. github 블로그 목차와 카테고리.hwp 4
-
 printf("29일");
 else
 printf("28일");
