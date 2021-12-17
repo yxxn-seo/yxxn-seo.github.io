@@ -19,7 +19,7 @@
         <span class="nav__sub-title">의약</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "bio" %}
+                    {% if category[0] == "" %}
                         <li><a href="/categories/bio" class="">바이오의약품 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
