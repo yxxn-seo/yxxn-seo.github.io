@@ -5,7 +5,7 @@ toc: true
 toc_sticky: true
 toc_label: "페이지 주요 목차"
 categories:
-- 수업실습
+- lesson
 ---
 
 ### 01. 사주보기
