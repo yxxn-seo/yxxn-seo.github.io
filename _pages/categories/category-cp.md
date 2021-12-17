@@ -7,5 +7,5 @@ sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.수업실습 %}
+{% assign posts = site.categories.cp %}
 {% for post in posts %}{% include archive-single2.html type=page.entries_layout %}{% endfor %}
