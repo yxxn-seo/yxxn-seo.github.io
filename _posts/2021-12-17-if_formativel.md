@@ -1,3 +1,7 @@
+toc: true
+toc_sticky: true
+toc_label: "페이지 주요 목차"
+categories: “형성평가”
 ---
 layout: single
 title: "조건문" toc: true
