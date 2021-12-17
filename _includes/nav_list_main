@@ -17,7 +17,7 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories.수업실습 %}
                     {% if category[0] == "수업실습" %}
-                        <li><a href="/categories/수업실습" class="">프로 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/수업실습" class="">프로그래밍 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
