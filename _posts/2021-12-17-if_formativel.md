@@ -6,6 +6,9 @@ toc_sticky: true
 toc_label: "페이지 주요 목차"
 categories:
 - lesson
+tag:
+- c 언어
+- if
 ---
 
 ### 01. 사주보기
