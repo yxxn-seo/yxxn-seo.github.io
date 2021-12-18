@@ -8,11 +8,11 @@
             📂 <span style="font-family:'Cafe24Shiningstar';">전체 글 수</style> <span style="font-family:'Cafe24Shiningstar';">{{sum}}</style> <span style="font-family:'Cafe24Shiningstar';">개</style> 
       </li>
       <li>
-         <span style="font-family:'Cafe24Shiningstar';"><span class="nav__sub-title">수업</span>
+         <span style="font-family:'Cafe24Shiningstar';" span class="nav__sub-title">수업</span>
             <ul>
                 {% for category in site.categories. %}
                     {% if category[0] == "lesson" %}
-                        <span style="font-family:'Cafe24Shiningstar';"><li><a href="/categories/lesson" class="">프로그래밍 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/lesson" class="">프로그래밍 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -20,14 +20,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "biopharm" %}
-                        <span style="font-family:'Cafe24Shiningstar';"><li><a href="/categories/biopharm" class="">바이오의약품 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/biopharm" class="">바이오의약품 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "vaccine" %}
-                        <li><a href="/categories/vaccine" class="">백신 ({{category[1].size}})</a></li>
+                        <li><span style="font-family:'Cafe24Shiningstar';" a href="/categories/vaccine" class="">백신 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
