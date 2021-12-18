@@ -12,7 +12,7 @@
             <ul>
                 {% for category in site.categories. %}
                     {% if category[0] == "lesson" %}
-                        <li><a href="/categories/lesson" class="">프로그래밍 ({{category[1].size}})</a></li>
+                        <li><span style="font-family:'Cafe24Shiningstar';" a href="/categories/lesson" class="">프로그래밍 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -20,7 +20,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "biopharm" %}
-                        <li><a href="/categories/biopharm" class="">바이오의약품 ({{category[1].size}})</a></li>
+                        <li><span style="font-family:'Cafe24Shiningstar';" a href="/categories/biopharm" class="">바이오의약품 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -34,7 +34,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "corona" %}
-                        <li><a href="/categories/corona" class="">코로나 ({{category[1].size}})</a></li>
+                        <li><span style="font-family:'Cafe24Shiningstar';" a href="/categories/corona" class="">코로나 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
