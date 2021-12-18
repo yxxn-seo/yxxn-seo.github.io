@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "C 프로그래밍"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : <span style="font-family:'IM_Hyemin-Bold';">"최윤서"
+name                     : "최윤서"
 description              : "k-고딩의 공부 기록"
 url                      : "https://yxxn-seo.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
