@@ -20,21 +20,21 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "biopharm" %}
-                        <li><a href="/categories/biopharm" class="">바이오의약품 ({{category[1].size}})</a></li>
+                        <li><span style="font-family:'IM_Hyemin-Bold';"><span style="font-family:'IM_Hyemin-Bold';"><a href="/categories/biopharm" class="">바이오의약품 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "vaccine" %}
-                        <li><a href="/categories/vaccine" class="">백신 ({{category[1].size}})</a></li>
+                        <li><span style="font-family:'IM_Hyemin-Bold';"><a href="/categories/vaccine" class="">백신 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "corona" %}
-                        <li> </style> <span style="font-family:'IM_Hyemin-Bold';"> <a href="/categories/corona" class="">코로나 ({{category[1].size}})</a></li>
+                        <li><span style="font-family:'IM_Hyemin-Bold';"><a href="/categories/corona" class="">코로나 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
