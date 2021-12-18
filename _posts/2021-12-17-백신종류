@@ -2,4 +2,6 @@
 layout: single
 title: "백신 종류"
 toc: true
+toc_sticky: true
+toc_
 ---
