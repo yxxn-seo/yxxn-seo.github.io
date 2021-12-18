@@ -3,5 +3,9 @@ layout: single
 title: "백신 종류"
 toc: true
 toc_sticky: true
-toc_
+toc_label: "페이지 목차"
+categories:
+-vaccine
 ---
+
+## 백신 
